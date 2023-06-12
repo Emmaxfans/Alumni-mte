@@ -1,8 +1,14 @@
+import Nav from "../nav/Nav"
 import "./hero.css"
 
 const Hero = () => {
   return (
-    <div>Hero</div>
+    <>
+    <div className="hero">
+      <Nav/>
+      {/* <h1>Lorem ipsum dolor <br/> sit amet consectetur. Quam  </h1> */}
+    </div>
+    </>
   )
 }
 

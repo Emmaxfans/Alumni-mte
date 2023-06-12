@@ -1,0 +1,14 @@
+.hero{
+    margin: 0;
+    background: url(../../assets/images/hero/hero-bg.png);
+    /* height: 1024px; */
+    /* width: 100%; */
+    font-family: 'Circular Std';
+font-style: normal;
+}
+
+.hero h1{
+font-weight: 900;
+color: #ffffffff;
+margin-top: 328px;
+}
