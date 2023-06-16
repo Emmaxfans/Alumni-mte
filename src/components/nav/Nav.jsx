@@ -12,6 +12,8 @@ const Nav = () => {
   return (
     <>
 
+    {/* NAV BAR */}
+
 <div className="page-wrapper">
       <div className="nav-wrapper">
         <div className="grad-bar"></div>

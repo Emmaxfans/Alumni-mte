@@ -1,0 +1,214 @@
+.mv{
+    margin: 0;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+}
+
+.mv h1{
+    color: #01060C;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+/* MISSION AND VISION SECTION */
+
+.mv__section {
+    height: auto;
+    width: 100%;
+    display: flex;
+    padding: 100px 0 ;
+  }
+  
+  .section_container {
+    margin-top: 10px;
+  }
+
+  /* mission section */
+
+  .mission1{
+    height: auto;
+    display: flex;
+    margin-bottom: 50px;
+  }
+
+.mission1 h3{
+    margin: auto 0;
+}
+
+.mission1 p{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-weight: 400;
+}
+
+/* Vision section */
+
+.mission2{
+    height: auto;
+    display: flex;
+    margin-bottom: 50px;
+  }
+
+.mission2 h3{
+    padding-left: 10px;
+    margin: auto 0;
+}
+
+.mission2 p{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-weight: 400;
+}
+
+.mv__section1 {
+    height: auto;
+    width: 100%;
+    display: flex;
+  }
+
+  .mission3 img{
+    height: 400px;
+    margin-top: -65px;
+    padding-right: 100px;
+  }
+
+.total{
+    padding: 50px 0;
+}
+
+.total h4, h5{
+    text-align: center;
+    padding-right: 150px;
+}
+
+total h4{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+total h5{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* MOBILE STYLING */
+
+@media (width <= 480px){
+
+    .mv{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 40px;
+    }
+    
+    .mv h1{
+        text-align: center;
+        color: #01060C;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    /* MISSION AND VISION SECTION */
+
+.mv__section {
+    height: auto;
+    /* width: 100%; */
+    display: block;
+    padding: 50px 0 ;
+  }
+  
+  .section_container {
+    margin-top: 10px;
+  }
+
+  /* mission section */
+
+  .mission1{
+    height: auto;
+    display: block;
+    margin-bottom: 50px;
+  }
+
+.mission1 h3{
+    padding-left: 20px;
+    margin: auto 0;
+}
+
+.mission1 p{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-weight: 400;
+}
+
+/* Vision section */
+
+.mission2{
+    height: auto;
+    display: block;
+    margin-bottom: 50px;
+  }
+
+.mission2 h3{
+    padding-left: 20px;
+    margin: auto 0;
+}
+
+.mission2 p{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-weight: 400;
+}
+
+.mv__section1 {
+    height: auto;
+    width: 100%;
+    display: block;
+  }
+
+  .mission3 img{
+    display: none;
+  }
+
+ 
+
+.total{
+    padding: 20px 0;
+}
+
+.total h4, h5{
+    text-align: center;
+    /* padding-right: 150px; */
+}
+
+total h4{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+total h5{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+    
+}
+
+
+/* MINI TABLET STYLING */
+
+@media (width <= 768px){
+
+}
+
+/* IPAD AIR STYLING */
+
+@media (width = 820px){
+
+}
+

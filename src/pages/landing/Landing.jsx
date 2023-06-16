@@ -1,11 +1,14 @@
-import "./landing.css";
-// import Body from "../../components/body/Body";
 import Hero from "../../components/hero/Hero";
+import { MissionVision } from "../../components/misson-vision/MissionVision";
+import { NewsEvent } from "../../components/new-event/NewsEvent";
+import "./landing.css";
 
 const Landing = () => {
   return (
     <>
     <Hero />
+    <MissionVision />
+    <NewsEvent />
     {/* <Body /> */}
     </>
   )

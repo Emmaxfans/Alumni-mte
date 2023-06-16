@@ -1,14 +1,80 @@
-.hero{
+.hero {
     margin: 0;
-    background: url(../../assets/images/hero/hero-bg.png);
-    /* height: 1024px; */
-    /* width: 100%; */
-    font-family: 'Circular Std';
-font-style: normal;
+    /* height: 800px; */
 }
 
-.hero h1{
-font-weight: 900;
-color: #ffffffff;
-margin-top: 328px;
+.hero__bg{
+    background: url(../../assets/images/hero/hero-bg.png);
+    background-size: cover;
+    max-height: 1024px;
+}
+
+.hero__div {
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 228px;
+    /* margin-bottom: 228px; */
+}
+
+.hero__div h1 {
+    font-weight: 900;
+    color: #F8FBFE;
+}
+
+.hero__div button {
+    width: 181px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    margin-top: 30px;
+    color: #F8FBFE;
+    background: #0C7DE6;
+    border-radius: 6px;
+    border: none;
+
+}
+
+/* MOBILE STYLING */
+
+@media (width <= 760px){
+    .hero__bg{
+        background-size: none;
+    }
+
+    .hero__div h1 {
+        font-weight: 500;
+    }
+
+    .hero__div button {
+        width: 121px;
+        height: 40px;
+        font-size: 16px;
+        font-weight: 200;
+        padding: 8px;
+        margin-top: 20px;
+        border-radius: 4px;
+    
+    }
+
+    .hero__div {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 64px;
+    }
+
+}
+
+/* MINI TABLET STYLING */
+
+@media (width = 768px){
+
+}
+
+/* IPAD AIR STYLING */
+
+@media (width = 820px){
+
 }
