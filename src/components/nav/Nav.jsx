@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 const Nav = () => {
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isSearchOpen, setIsSearchOpen] = useState(false);
+  // const [isSearchOpen, setIsSearchOpen] = useState(false);
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
-  const toggleSearch = () => setIsSearchOpen(!isSearchOpen);
+  // const toggleSearch = () => setIsSearchOpen(!isSearchOpen);
   return (
     <>
 

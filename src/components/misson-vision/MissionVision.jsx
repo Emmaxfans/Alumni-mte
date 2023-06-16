@@ -1,5 +1,5 @@
 import './MissionVision.css'
-import rectangle from '../../assets/images/Mission/Rectangle 7.PNG'
+import vline from '../../assets/images/Mission/vline.png'
 
 export const MissionVision = () => {
     return (
@@ -22,7 +22,7 @@ export const MissionVision = () => {
                     <div className='section__container'>
                         <div className='mv__section1'>
                             <div className='mission3'>
-                                <img src={rectangle} alt='Mission-line' />
+                                <img src={vline} alt='Mission-line' />
                             </div>
 
                             <div className='mission3'>
