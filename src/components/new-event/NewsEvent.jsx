@@ -10,10 +10,6 @@ export const NewsEvent = () => {
             <div className='news__event'>
                 <h1>News & Event</h1>
 
-                {/* <section class="headline">
-                    <h1>Responsive Navigation</h1>
-                    <p>Using CSS grid and flexbox to easily build navbars!</p>
-                </section> */}
                 <section className="features1">
                     <div className="feature-container">
                         <img src={hand} alt="Flexbox Feature" />
