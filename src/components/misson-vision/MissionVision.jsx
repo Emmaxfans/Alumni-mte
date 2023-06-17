@@ -25,7 +25,7 @@ export const MissionVision = () => {
                                 <img src={vline} alt='Mission-line' />
                             </div>
 
-                            <div className='mission3'>
+                            <div className='mission4'>
                                 <div className='total'>
                                     <h4>Total</h4>
                                     <h5>total paragraph</h5>

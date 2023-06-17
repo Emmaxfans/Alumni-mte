@@ -8,24 +8,61 @@ export const NewsEvent = () => {
     return (
         <>
             <div className='news__event'>
-                <h1>News & Event</h1>
+                <h1>News & Events</h1>
 
-                <section className="features1">
-                    <div className="feature-container">
-                        <img src={hand} alt="Flexbox Feature" />
-                        <h2>Event Title</h2>
-                        <p>This pen contains use of flexbox for the headline and feature section! We use it in our mobile navbar and show the power of mixing css grid and flexbox.</p>
+                <section className='news__section'>
+                     <div className='feature0'>
+                        <div>
+                        <p>Jobs</p>
+                        <p>Artificial Intelligence</p>
+                        </div>
+
+                        <div>
+                        <p>Robotics</p>
+                        <p>Mechatronics</p>
+                        </div>
+
+                        <div>
+                        <p>Careers</p>
+                        <p>Electronics</p>
+                        </div>
+
+                        <div>
+                        <p>Department</p>
+                        {/* <p>Artificial Intelligent</p> */}
+                        </div>
+
+                        
                     </div>
-                    <div className="feature-container">
-                        <img src={engine} alt="Flexbox Feature" />
-                        <h2>Event Title</h2>
-                        <p>While flexbox is used for the the mobile navbar, CSS grid is used for the desktop navbar showing many ways we can use both.</p>
+
+                    <div className='feature0x'>
+                        <div className="features1">
+                            <div className="feature-container">
+                                <div>
+                                    <img src={hand} alt="Flexbox Feature" />
+                                    <h2>Event Title</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur. Pretium ac adipiscing nunc urna neque sagittis leo. Quis aliquet porta congue mauris vitae. </p>
+                                    <a href='/#'>Read More</a>
+                                </div>
+                            </div>
+                            <div className="feature-container">
+                                <div>
+                                    <img src={engine} alt="Flexbox Feature" />
+                                    <h2>Event Title</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur. Pretium ac adipiscing nunc urna neque sagittis leo. Quis aliquet porta congue mauris vitae. </p>
+                                    <a href='/#'>Read More</a>
+                                </div>
+                            </div>
+                            <div className="feature-container">
+                                <div>
+                                    <img src={engine} alt="Flexbox Feature" />
+                                    <h2>Event Title</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur. Pretium ac adipiscing nunc urna neque sagittis leo. Quis aliquet porta congue mauris vitae. </p>
+                                    <a href='/#'>Read More</a>
+                                </div>
+                            </div>
                     </div>
-                    <div className="feature-container">
-                        <img src={engine} alt="Flexbox Feature" />
-                        <h2>Event Title</h2>
-                        <p>This pen contains basic html to setup the page to display the responsive navbar.</p>
-                    </div>
+                    </div>       
                 </section>
             </div>
         </>

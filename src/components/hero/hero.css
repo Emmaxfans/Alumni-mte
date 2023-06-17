@@ -13,6 +13,7 @@
     padding-left: 80px;
     padding-right: 80px;
     margin-top: 228px;
+    padding-bottom: 152px;
     /* margin-bottom: 228px; */
 }
 
@@ -30,6 +31,7 @@
     align-items: center;
     padding: 8px;
     margin-top: 30px;
+    /* margin-bottom: 30px; */
     color: #F8FBFE;
     background: #0C7DE6;
     border-radius: 6px;
@@ -41,7 +43,7 @@
 
 @media (width <= 760px){
     .hero__bg{
-        background-size: none;
+        background: #000000;
     }
 
     .hero__div h1 {

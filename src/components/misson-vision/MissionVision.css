@@ -38,7 +38,7 @@
 
 .mission1 p{
     padding-left: 100px;
-    padding-right: 100px;
+    padding-right: 200px;
     font-weight: 400;
 }
 
@@ -57,7 +57,7 @@
 
 .mission2 p{
     padding-left: 100px;
-    padding-right: 100px;
+    padding-right: 200px;
     font-weight: 400;
 }
 
@@ -68,29 +68,25 @@
   }
 
   .mission3 img{
-    height: 400px;
-    margin-top: -65px;
-    padding-right: 100px;
+    /* height: 400px; */
+    /* margin-top: -65px; */
+    margin-right: 300px;
+    /* padding-right: 100px; */
+  }
+
+  .mission4{
+    display: grid;
   }
 
 .total{
-    padding: 50px 0;
+    padding: 30px 0;
 }
 
 .total h4, h5{
     text-align: center;
-    padding-right: 150px;
+    /* padding: 0 150px; */
 }
 
-total h4{
-    font-size: 36px;
-    font-weight: 700;
-}
-
-total h5{
-    font-size: 16px;
-    font-weight: 400;
-}
 
 
 /* MOBILE STYLING */
