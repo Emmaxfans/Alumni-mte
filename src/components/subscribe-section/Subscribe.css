@@ -1,0 +1,109 @@
+.subscribe {
+    display: flex;
+    margin: 0;
+}
+
+.subscribe div:nth-child(1) {
+    width: 50%;
+    background-repeat: no-repeat;
+}
+
+.subscribe div:nth-child(1) img {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.subscribe div:nth-child(2) {
+    width: 50%;
+    height: 100%;
+    padding: 0 80px 0 40px;
+}
+
+.subscribe div:nth-child(2) h1 {
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+
+form {
+    padding-top: 180px;
+}
+
+form div {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input {
+    border: none;
+}
+
+button {
+    border: none;
+    background: none;
+    color: #0C7DE6;
+    font-size: 15px;
+    /* margin-left: 100px; */
+}
+
+
+button:hover {
+    cursor: pointer;
+    color: black;
+}
+
+
+
+.subscribe__bg {
+    background: #0C7DE6;
+}
+
+.subscribe__bg p {
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* MOBILE STYLING */
+
+@media (width <=480px) {
+    .subscribe {
+        display: block;
+    }
+
+    form {
+        display: block;
+        /* justify-content: space-between;
+        padding-top: 180px; */
+    }
+
+    .subscribe div:nth-child(1) {
+        width: 100%;
+    }
+
+    .subscribe div:nth-child(1) img {
+        width: 100%;
+        height: 100%;
+        /* background: url(../../assets/images/subscribe/subscribe.png); */
+        background-repeat: no-repeat;
+    }
+
+    .subscribe div:nth-child(2) {
+        width: 100%;
+        height: 100%;
+        padding: 0 40px;
+    }
+
+    form {
+        padding: 80px 0;
+    }
+}
+
+/* MINI TABLET STYLING */
+
+@media (width <=768px) {}
+
+/* IPAD AIR STYLING */
+
+@media (width=820px) {}

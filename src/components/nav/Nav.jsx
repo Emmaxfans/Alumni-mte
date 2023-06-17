@@ -12,30 +12,30 @@ const Nav = () => {
   return (
     <>
 
-    {/* NAV BAR */}
+      {/* NAV BAR */}
 
-<div className="page-wrapper">
-      <div className="nav-wrapper">
-        <div className="grad-bar"></div>
-        <nav className="navbar">
-          <div className="alumni">
-    <img src={alumnilogo} alt="Company Logo"/>
-    <p>AMTES</p>
-    </div>
-          <div className={`menu-toggle ${isMenuOpen ? 'is-active' : ''}`} id="mobile-menu" onClick={toggleMenu}>
-            <span className="bar"></span>
-            <span className="bar"></span>
-            <span className="bar"></span>
-          </div>
-          <ul className={`nav no-search ${isMenuOpen ? 'mobile-nav' : ''}`}>
-            <li className="nav-item"><Link to='/'>Gallery</Link></li>
-            <li className="nav-item"><Link to='/'>Lastest News</Link></li>
-            <li className="nav-item"><Link to='/signin'>Login</Link></li>
-            <li className="nav-item"><Link to='/signup'>Register</Link></li>
-          </ul>
-        </nav>
+      <div className="page-wrapper">
+        <div className="nav-wrapper">
+          <div className="grad-bar"></div>
+          <nav className="navbar">
+            <div className="alumni">
+              <img src={alumnilogo} alt="Company Logo" />
+              <p>AMTES</p>
+            </div>
+            <div className={`menu-toggle ${isMenuOpen ? 'is-active' : ''}`} id="mobile-menu" onClick={toggleMenu}>
+              <span className="bar"></span>
+              <span className="bar"></span>
+              <span className="bar"></span>
+            </div>
+            <ul className={`nav no-search ${isMenuOpen ? 'mobile-nav' : ''}`}>
+              <li className="nav-item"><Link to='/'>Gallery</Link></li>
+              <li className="nav-item"><Link to='/'>Lastest News</Link></li>
+              <li className="nav-item"><Link to='/signin'>Login</Link></li>
+              <li className="nav-item"><Link to='/signup'>Register</Link></li>
+            </ul>
+          </nav>
+        </div>
       </div>
-    </div>
     </>
   )
 }
