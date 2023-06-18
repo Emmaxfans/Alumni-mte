@@ -13,8 +13,14 @@ const EmailReset = () => {
                     <img src={ellipse1} alt="ellips1"/>
                 </div>
 
-                <div className='fp__div2'>
+                <div className='fp__div2 fps__content'>
                     <img src={backbutton} alt='back-button' />
+                        <h3>Check Your Mail</h3>
+                        <p>We’ve sent a password recovery instruction to your email address.</p>
+
+                        <form>
+                            <button>Open the Email app</button>
+                        </form>
                 </div>
 
                 <div className='fp__div3'>
