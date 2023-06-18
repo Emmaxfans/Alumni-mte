@@ -26,20 +26,20 @@
     padding-top: 30px;
 }
 
-form {
+.subscribe__form {
     padding-top: 180px;
 }
 
-form div {
+.subscribe__form div {
     display: flex;
     justify-content: space-between;
 }
 
-form input {
+.subscribe__form input {
     border: none;
 }
 
-button {
+.subscribe__form button {
     border: none;
     background: none;
     color: #0C7DE6;
@@ -48,9 +48,9 @@ button {
 }
 
 
-button:hover {
+.subscribe__form button:hover {
     cursor: pointer;
-    color: black;
+    /* color: black; */
 }
 
 
@@ -72,7 +72,7 @@ button:hover {
         display: block;
     }
 
-    form {
+    .subscribe__form {
         display: block;
         /* justify-content: space-between;
         padding-top: 180px; */
@@ -95,7 +95,7 @@ button:hover {
         padding: 0 40px;
     }
 
-    form {
+    .subscribe__form {
         padding: 80px 0;
     }
 }

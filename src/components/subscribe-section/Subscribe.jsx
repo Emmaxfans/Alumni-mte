@@ -13,7 +13,7 @@ const Subscribe = () => {
                     <h1>Follow our news</h1>
                     <p>Stay in touch with us always and subscribe to news and promotion from our association</p>
 
-                    <form>
+                    <form className='subscribe__form'>
                         <div>
                             <input type='email' name='subscribe' placeholder='youremail@example.com' />
                             <button type='submit'>SUBSCRIBE</button>

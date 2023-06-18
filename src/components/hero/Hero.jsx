@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import Nav from "../nav/Nav"
 import "./hero.css"
 
@@ -9,7 +10,7 @@ const Hero = () => {
       <Nav/>
       <div className="hero__div">
       <h1>Lorem ipsum dolor <br/> sit amet consectetur. Quam  </h1>
-      <button className="">Register</button>
+      <button className=""><Link to='/#'>Register</Link></button>
       </div>
       </div>
     </div>

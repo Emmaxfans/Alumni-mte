@@ -7,29 +7,44 @@
 
 .mv h1{
     color: #01060C;
-    font-size: 56px;
+    font-size: 36px;
     font-weight: 700;
 }
 
 /* MISSION AND VISION SECTION */
 
 .mv__section {
-    height: auto;
+    /* height: 590px; */
     width: 100%;
     display: flex;
+    /* flex-basis: auto; */
     padding: 100px 0 ;
   }
   
   .section_container {
+    width: 30%;
+    height: auto;
     margin-top: 10px;
   }
 
+  .mission3{
+    width: 30%;
+  }
+
+  .section_container1 {
+    /* display: block; */
+    width: 50%;
+    height: auto;
+    margin-top: 10px;
+  }
   /* mission section */
 
   .mission1{
     height: auto;
+    /* width: 50%; */
     display: flex;
-    margin-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
   }
 
 .mission1 h3{
@@ -38,27 +53,29 @@
 
 .mission1 p{
     padding-left: 100px;
-    padding-right: 200px;
-    font-weight: 400;
+    padding-right: 100px;
+    font-weight: 100;
 }
 
 /* Vision section */
 
 .mission2{
     height: auto;
+    /* width: 50%; */
     display: flex;
-    margin-bottom: 50px;
+    /* padding-bottom: 90px; */
+    /* width: 60%; */
   }
 
 .mission2 h3{
-    padding-left: 10px;
+    padding-right: 10px;
     margin: auto 0;
 }
 
 .mission2 p{
-    padding-left: 100px;
-    padding-right: 200px;
-    font-weight: 400;
+  padding-left: 100px;
+  padding-right: 100px;
+    font-weight: 100;
 }
 
 .mv__section1 {
@@ -67,22 +84,21 @@
     display: flex;
   }
 
-  .mission3 img{
-    /* height: 400px; */
-    /* margin-top: -65px; */
-    margin-right: 300px;
-    /* padding-right: 100px; */
-  }
+ 
 
   .mission4{
     display: grid;
   }
 
-.total{
-    padding: 30px 0;
+.total1{
+    padding: 120px 20px 0px 20px;
 }
 
-.total h4, h5{
+.total2{
+  padding: 100px 20px 0 20px;
+}
+
+.total1{
     text-align: center;
     /* padding: 0 150px; */
 }

@@ -12,30 +12,28 @@ export const MissionVision = () => {
                         <div className='mission1'>
                             <h3>Mission</h3>
                             <p>Lorem ipsum dolor sit amet consectetur. Pretium ac adipiscing nunc urna neque sagittis leo. Quis aliquet porta congue mauris vitae. Tristique vulputate pharetra cursus aenean pellentesque laoreet condimentum. Tellus. Lorem ipsum dolor sit amet consectetur. Pretium ac adipiscing nunc urna neque sagittis leo. Quis aliquet porta congue mauris vitae. Tristique vulputate pharetra cursus aenean pellentesque laoreet condimentum. Tellus.</p>
-                        </div>
-                        <div className='mission2'>
+                            </div>
+                            <div className='mission2'>
                             <h3>Vision</h3>
                             <p>Lorem ipsum dolor sit amet consectetur. Pretium ac adipiscing nunc urna neque sagittis leo. Quis aliquet porta congue mauris vitae. Tristique vulputate pharetra cursus aenean pellentesque laoreet condimentum. Tellus. Lorem ipsum dolor sit amet consectetur. Pretium ac adipiscing nunc urna neque sagittis leo. Quis aliquet porta congue mauris vitae. Tristique vulputate pharetra cursus aenean pellentesque laoreet condimentum. Tellus.</p>
                         </div>
                     </div>
 
-                    <div className='section__container'>
-                        <div className='mv__section1'>
-                            <div className='mission3'>
+                    <div className='mission3'>
                                 <img src={vline} alt='Mission-line' />
                             </div>
 
-                            <div className='mission4'>
-                                <div className='total'>
+                    <div className='section__container1'>
+                        
+                    {/* <div className='mission4'> */}
+                                <div className='total1'>
                                     <h4>Total</h4>
-                                    <h5>total paragraph</h5>
+                                    <p>total paragraph</p>
                                 </div>
-                                <div className='total'>
+                                <div className='total2'>
                                     <h4>Total</h4>
-                                    <h5>total paragraph</h5>
+                                    <p>total paragraph</p>
                                 </div>
-                            </div>
-                        </div>
                     </div>
                 </section>
             </div>
