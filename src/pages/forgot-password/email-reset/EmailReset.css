@@ -1,0 +1,89 @@
+/* FORGOT PASSWORD CONTENT */
+
+.emailreset__content div {
+    /* text-align: center; */
+    /* border: 2px dotted #0C7DE6; */
+    margin: 50px auto;
+    width: 300px;
+}
+
+
+.p__head {
+    margin: 2% 55% 5% 45%;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    background-color: #E7F2FD;
+    border-radius: 50%;
+}
+
+.p__head img{
+    /* margin: 0px 0px 0px 2px;   */
+    margin-left: 27%;
+    /* margin-top: 1%; */
+    margin-bottom: 10%;
+}
+
+.emailreset__content h3,
+p {
+    text-align: center;
+    margin: 0 20%;
+}
+
+.emailreset__content h3, .p1 {
+    padding: 5px 0;
+}
+
+.emailreset__content .p2 {
+    padding: 8px 0;
+}
+
+.emailreset__content p {
+    font-size: 12px;
+}
+
+.emailreset__content button {
+    width: 60%;
+    background: #0C7DE6;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin: 8% 20% 0% 20%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+.emailreset__content a {
+    text-decoration: none;
+}
+
+/* MOBILE STYLING */
+
+@media (width <=768px) {
+    .emailreset__content div {
+        /* text-align: center; */
+        border: 2px dotted #0C7DE6;
+        margin: 10px 0;
+        /* width: 200px; */
+    }
+
+    .p__head {
+        margin: 2% 60% 10% 40%;
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+    }
+
+    .emailreset__content h3,
+p {
+    text-align: center;
+    margin: 0 10%;
+}
+
+    .emailreset__content button {
+        width: 80%;
+        margin: 8% 10% 0% 10%;
+        border-radius: 3px;
+    }
+
+}
