@@ -4,10 +4,6 @@
   "version": "0.0.0",
   "type": "module",
 
-  "engines": {
-    "node": "16.1"
-  },
-
   "scripts": {
     "dev": "vite",
     "build": "vite build",
