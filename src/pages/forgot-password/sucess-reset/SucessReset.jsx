@@ -1,6 +1,5 @@
 import "./SucessReset.css";
-// import backbutton from "../../../assets/images/forgotpsw/backbutton.png";
-import vector from "../../../assets/icons/vector1.png";
+import vector__success from "../../../assets/icons/vector1.png";
 import Bottomcircle from "../../../components/forgot-password/Bottomcircle";
 import Topcircle from "../../../components/forgot-password/Topcircle";
 import Backbutton from "../../../components/forgot-password/Backbutton";
@@ -13,10 +12,9 @@ const SucessReset = () => {
         <Bottomcircle />
 
         <div className="successreset__content">
-          {/* <img src={backbutton} alt="back-button" /> */}
           <Backbutton />
           <span className="p__head1">
-            <img src={vector} alt="email-reset" />
+            <img src={vector__success} alt="email-reset" />
           </span>
 
           <h3>Password Reset</h3>
