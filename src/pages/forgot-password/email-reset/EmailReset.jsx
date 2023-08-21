@@ -1,5 +1,5 @@
 import "./EmailReset.css";
-import vector from "../../../assets/images/forgotpsw/vector.png";
+import vector from "../../../assets/icons/vector.png";
 import Bottomcircle from "../../../components/forgot-password/Bottomcircle";
 import Topcircle from "../../../components/forgot-password/Topcircle";
 import Backbutton from "../../../components/forgot-password/Backbutton";

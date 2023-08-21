@@ -1,6 +1,6 @@
 import "./SucessReset.css";
 // import backbutton from "../../../assets/images/forgotpsw/backbutton.png";
-import vector from "../../../assets/images/forgotpsw/vector1.png";
+import vector from "../../../assets/icons/vector1.png";
 import Bottomcircle from "../../../components/forgot-password/Bottomcircle";
 import Topcircle from "../../../components/forgot-password/Topcircle";
 import Backbutton from "../../../components/forgot-password/Backbutton";

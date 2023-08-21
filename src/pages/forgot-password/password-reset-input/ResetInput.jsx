@@ -1,5 +1,5 @@
 import React from "./ResetInput.css";
-import vector from "../../../assets/images/forgotpsw/vector3.png";
+import vector from "../../../assets/icons/vector3.png";
 import Bottomcircle from "../../../components/forgot-password/Bottomcircle";
 import Topcircle from "../../../components/forgot-password/Topcircle";
 import Backbutton from "../../../components/forgot-password/Backbutton";
