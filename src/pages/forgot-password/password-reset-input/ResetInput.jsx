@@ -1,4 +1,4 @@
-import React from "./ResetInput.css";
+import "./ResetInput.css";
 // import vector__resetinput from "../../../assets/icons/vector-reset.png";
 import Bottomcircle from "../../../components/forgot-password/Bottomcircle";
 import Topcircle from "../../../components/forgot-password/Topcircle";
