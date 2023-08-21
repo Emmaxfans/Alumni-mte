@@ -1,20 +1,17 @@
 import React from "./ResetInput.css";
-import "../password-reset/ForgotPassword.css";
-import ellipse2 from "../../../assets/images/forgotpsw/ellipse36.png";
-import ellipse1 from "../../../assets/images/forgotpsw/ellipse37.png";
-import backbutton from "../../../assets/images/forgotpsw/backbutton.png";
 import vector from "../../../assets/images/forgotpsw/vector3.png";
+import Bottomcircle from "../../../components/forgot-password/Bottomcircle";
+import Topcircle from "../../../components/forgot-password/Topcircle";
+import Backbutton from "../../../components/forgot-password/Backbutton";
 
 const ResetInput = () => {
   return (
     <div className="forgot__password">
       <div className="fp__section1">
-        <div className="fp__div1">
-          <img src={ellipse1} alt="ellips1" />
-        </div>
+        <Bottomcircle />
 
-        <div className="fp__div2 resetinput__content">
-          <img src={backbutton} alt="back-button" />
+        <div className="resetinput__content">
+          <Backbutton />
           <span className="p__head3">
             <img src={vector} alt="email-reset" />
           </span>
@@ -32,10 +29,7 @@ const ResetInput = () => {
             <button>Reset Password</button>
           </form>
         </div>
-
-        <div className="fp__div3">
-          <img src={ellipse2} alt="ellipse1" />
-        </div>
+        <Topcircle />
       </div>
     </div>
   );

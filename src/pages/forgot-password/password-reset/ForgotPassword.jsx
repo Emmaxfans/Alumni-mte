@@ -1,19 +1,17 @@
 import "./ForgotPassword.css";
-import ellipse2 from "../../../assets/images/forgotpsw/ellipse36.png";
-import ellipse1 from "../../../assets/images/forgotpsw/ellipse37.png";
-import backbutton from "../../../assets/images/forgotpsw/backbutton.png";
+import Bottomcircle from "../../../components/forgot-password/Bottomcircle";
+import Topcircle from "../../../components/forgot-password/Topcircle";
+import Backbutton from "../../../components/forgot-password/Backbutton";
 
 const ForgotPassword = () => {
   return (
     // RESET PASSWORD PAGE
     <div className="forgot__password">
       <div className="fp__section">
-        <div className="fp__div1">
-          <img src={ellipse1} alt="ellips1" />
-        </div>
+        <Bottomcircle />
 
-        <div className="fp__div2 fps__content">
-          <img src={backbutton} alt="back-button" />
+        <div className="fps__content">
+          <Backbutton />
           <h3>Forgot Password?</h3>
           <p>
             Input the email address associated with your account and we’ll send
@@ -34,9 +32,7 @@ const ForgotPassword = () => {
           </form>
         </div>
 
-        <div className="fp__div3">
-          <img src={ellipse2} alt="ellipse1" />
-        </div>
+        <Topcircle />
       </div>
     </div>
   );

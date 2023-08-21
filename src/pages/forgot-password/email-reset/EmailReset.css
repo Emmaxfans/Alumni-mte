@@ -1,16 +1,11 @@
 /* FORGOT PASSWORD CONTENT */
 
-.emailreset__content div {
-    /* text-align: center; */
-    /* border: 2px dotted #0C7DE6; */
+.emailreset__content{
     margin: 50px auto;
     width: 300px;
 }
 
-
 .p__head {
-    margin: 2% 55% 5% 45%;
-    display: inline-block;
     height: 60px;
     width: 60px;
     background-color: #E7F2FD;
@@ -18,8 +13,8 @@
 }
 
 .p__head img{
-    margin-left: 28%;
-    margin-top: 30%;
+    margin-right: 25%;
+    margin-top: 35%;
 }
 
 .emailreset__content p,
@@ -58,11 +53,9 @@ h3 {
 /* MOBILE STYLING */
 
 @media (width <=768px) {
-    .emailreset__content div {
-        /* text-align: center; */
+    .emailreset__content{
         border: 2px dotted #0C7DE6;
         margin: 10px 0;
-        /* width: 200px; */
     }
 
     .p__head {
