@@ -1,23 +1,21 @@
 /* FORGOT PASSWORD CONTENT */
 
-.successreset__content div {
+.successreset__content {
     margin: 50px auto;
     width: 300px;
 }
 
 
 .p__head1 {
-    display: inline-block;
-    margin: 2% 55% 5% 45%;
-    display: inline-block;
     height: 50px;
     width: 50px;
     background-color: #D9F4E7;
     border-radius: 50%;
+    margin-bottom: 20px;
 }
 
 .p__head1 img{
-    margin-left: 28%;
+    /* margin-right: 3%; */
     margin-top: 36%;
 }
 

@@ -13,9 +13,11 @@ const SucessReset = () => {
 
         <div className="successreset__content">
           <Backbutton />
-          <span className="p__head1">
-            <img src={vector__success} alt="email-reset" />
-          </span>
+          <center>
+            <h1 className="p__head1">
+              <img src={vector__success} alt="email-reset" />
+            </h1>
+          </center>
 
           <h3>Password Reset</h3>
           <p className="p1">
