@@ -1,5 +1,5 @@
 import "./EmailReset.css";
-// import vector__reset from "../../../assets/icons/vector.png";
+import vector__reset from "../../../assets/icons/vector.png";
 import Bottomcircle from "../../../components/forgot-password/Bottomcircle";
 import Topcircle from "../../../components/forgot-password/Topcircle";
 import Backbutton from "../../../components/forgot-password/Backbutton";
@@ -16,7 +16,7 @@ const EmailReset = () => {
 
           <center>
             <h1 className="p__head">
-              {/* <img src={vector__reset} alt="email-reset" /> */}
+              <img src={vector__reset} alt="email-reset" />
             </h1>
           </center>
 
