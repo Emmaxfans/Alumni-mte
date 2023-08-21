@@ -1,0 +1,84 @@
+/* FORGOT PASSWORD CONTENT */
+
+.successreset__content div {
+    margin: 50px auto;
+    width: 300px;
+}
+
+
+.p__head1 {
+    display: inline-block;
+    margin: 2% 55% 5% 45%;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: #D9F4E7;
+    border-radius: 50%;
+}
+
+.p__head1 img{
+    margin-left: 28%;
+    margin-top: 36%;
+}
+
+.successreset__content p,
+h3 {
+    text-align: center;
+    margin: 0 20%;
+}
+
+.successreset__content h3, .p1 {
+    padding: 5px 0;
+}
+
+.successreset__content .p2 {
+    padding: 8px 0;
+}
+
+.successreset__content p {
+    font-size: 12px;
+}
+
+.successreset__content button {
+    width: 60%;
+    background: #0C7DE6;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin: 8% 20% 0% 20%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+.successreset__content a {
+    text-decoration: none;
+}
+
+/* MOBILE STYLING */
+
+@media (width <=768px) {
+    .successreset__content div {
+        border: 2px dotted #0C7DE6;
+        margin: 10px 0;
+    }
+
+    .p__head1 {
+        margin: 2% 60% 10% 40%;
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+    }
+
+    .successreset__content h3,
+p {
+    text-align: center;
+    margin: 0 10%;
+}
+
+.successreset__content button {
+        width: 80%;
+        margin: 8% 10% 0% 10%;
+        border-radius: 3px;
+    }
+
+}

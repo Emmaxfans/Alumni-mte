@@ -18,14 +18,12 @@
 }
 
 .p__head img{
-    /* margin: 0px 0px 0px 2px;   */
-    margin-left: 27%;
-    /* margin-top: 1%; */
-    margin-bottom: 10%;
+    margin-left: 28%;
+    margin-top: 30%;
 }
 
-.emailreset__content h3,
-p {
+.emailreset__content p,
+h3 {
     text-align: center;
     margin: 0 20%;
 }

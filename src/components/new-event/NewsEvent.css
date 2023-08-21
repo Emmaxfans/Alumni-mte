@@ -31,12 +31,12 @@
 
 .feature0 div:nth-child(1) p:nth-child(1) {
   text-align: center;
-  padding: 10px 20px;
+  padding: 5px 20px;
   margin-left: 60px;
   margin-bottom: 10px;
   color: #54555B;
   background: #E1E1E1;
-  border-radius: 20px;
+  border-radius: 100px;
 }
 
 .feature0 div:nth-child(1) p:nth-child(2) {
@@ -51,7 +51,7 @@
 }
 
 /* 2nd row */
-.feature0 div:nth-child(2) {
+.feature0 div:nth-child(2){
   display: flex;
   padding: 5px 0;
   gap: 20px;

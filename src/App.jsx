@@ -7,6 +7,12 @@ import Signup from './pages/sign-up/Signup';
 import Gallery from './pages/gallery/Gallery';
 import ForgotPassword from './pages/forgot-password/password-reset/ForgotPassword';
 import EmailReset from './pages/forgot-password/email-reset/EmailReset';
+import SucessReset from './pages/forgot-password/sucess-reset/SucessReset';
+import ResetInput from './pages/forgot-password/password-reset-input/ResetInput';
+import LoginUpsideLoginForm from './pages/formvalidation/LoginUpsideLoginForm';
+// import FormTest from './pages/formvalidation/formTest';
+// import FormValidate from './pages/formvalidation/FormValidate';
+
 
 
 function App () {
@@ -22,8 +28,11 @@ function App () {
 
         {/* forgot password  */}
         <Route path='/forgotpsw' element={<ForgotPassword />} />
+        <Route path='/resetinput' element={<ResetInput />} />
         <Route path='/emailreset' element={<EmailReset />} />
-
+        <Route path='/resetpsw' element={<SucessReset />} />
+        <Route path='/form' element={<LoginUpsideLoginForm />} />
+        {/* <Route path='/form1' element={<FormTest />} /> */}
       </Routes>
     </Router>
     </>

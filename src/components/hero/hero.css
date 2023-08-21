@@ -1,12 +1,21 @@
 .hero {
     margin: 0;
-    /* height: 800px; */
+    overflow: hidden;
+    /* width: 100vw; */
+    /* height: 100vh; */
+}
+
+.hero1{
+    /* width: 90%; */
+    /* height: 600px; */
+    /* width: 100%; */
 }
 
 .hero__bg{
     background: url(../../assets/images/hero/hero-bg.png);
+    /* background-position: center 0 right; */
     background-size: cover;
-    max-height: 1024px;
+    height: 100vh;
 }
 
 .hero__div {

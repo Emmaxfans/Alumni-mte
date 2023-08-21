@@ -1,0 +1,141 @@
+.fp__section1{
+    display: flex;
+    width: 100%;
+}
+
+.fp__section1 div:nth-child(1){
+    width: 35%;
+}
+
+.fp__section1 div:nth-child(2){
+    width: 35%;
+    background: #FFFFFF;
+    height: 520px;
+    margin: 50px 0;
+    border-radius: 24px;
+    z-index: 2;
+}
+
+/* FORGOT PASSWORD CONTENT */
+
+.resetinput__content div {
+    margin: 50px auto;
+    width: 500px;
+}
+
+
+.p__head {
+    margin: 2% 55% 5% 45%;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    background-color: #E7F2FD;
+    border-radius: 50%;
+}
+
+.p__head img{
+    margin-left: 28%;
+    margin-top: 30%;
+}
+
+.resetinput-text p,
+h3 {
+    text-align: center;
+    margin: 0 20%;
+}
+
+.resetinput__content h3, .p1 {
+    padding: 5px 0;
+}
+
+.resetinput__content .p2 {
+    padding: 8px 0;
+}
+
+.resetinput__content p {
+    font-size: 12px;
+}
+
+.resetinput__content form{
+    display: grid;
+}
+
+.resetinput__content input{
+    margin: 8% 20% 0% 20%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid;
+}
+
+.resetinput__content button {
+    width: 60%;
+    background: #0C7DE6;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin: 8% 20% 0% 20%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+.resetinput__content a {
+    text-decoration: none;
+}
+
+/* MOBILE STYLING */
+
+@media (width <=480px) {
+    .fp__section1 div:nth-child(1){
+        width: 10%;
+    }
+
+    .fp__section1 div:nth-child(3){
+        width: 10%;
+    }
+
+    .fp__section1 div:nth-child(2){
+        width: 80%;
+        height: 420px;
+        margin: 30% 0 70% 0;
+        border-radius: 6px;
+        z-index: 2;
+    }
+
+    .resetinput__content div {
+        border: 2px dotted #0C7DE6;
+        margin: 10px 0;
+    }
+
+    .p__head3 {
+        margin: 2% 60% 10% 40%;
+        display: inline-block;
+        background: #E7F2FD;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+    }
+
+    .p__head3 img{
+        margin-left: 28%;
+    margin-top: 27%;
+    }
+
+    .resetinput__content h3,
+p {
+    text-align: center;
+    margin: 0 15%;
+}
+
+    .resetinput__content button {
+        width: 70%;
+        margin-top: 10px;
+        margin: 8% 15% 0% 15%;
+        border-radius: 3px;
+    }
+
+    .resetinput__content input{
+        margin: 8% 15% 0% 15%;
+        padding: 5px;
+    }
+
+}
