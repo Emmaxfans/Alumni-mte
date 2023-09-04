@@ -1,9 +1,10 @@
-
-
+import "./Error.css";
 const Error = () => {
   return (
-    <div>error</div>
-  )
-}
+    <div className="error-page">
+      <h1>This page does not exist</h1>
+    </div>
+  );
+};
 
-export default Error
+export default Error;

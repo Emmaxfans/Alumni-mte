@@ -1,0 +1,10 @@
+.error-page{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.error-page h1{
+    text-align: center;
+    color: black;
+}
