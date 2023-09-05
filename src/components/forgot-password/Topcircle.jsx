@@ -1,5 +1,5 @@
 import "./Topcircle.css";
-import ellipse2 from "../../assets/images/forgotpsw/ellipse36.png";
+import ellipse2 from "src/assets/images/forgotpsw/ellipse36.png";
 
 const Topcircle = () => {
   return (
