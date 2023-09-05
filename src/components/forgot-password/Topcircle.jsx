@@ -1,11 +1,11 @@
 import "./Topcircle.css";
-import ellipse2 from "src/assets/images/ellipse36.png";
+// import ellipse2 from "src/assets/images/ellipse36.png";
 
 const Topcircle = () => {
   return (
     <>
       <div className="fp__div3">
-        <img src={ellipse2} alt="ellipse1" />
+        {/* <img src={ellipse2} alt="ellipse1" /> */}
       </div>
     </>
   );
