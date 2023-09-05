@@ -1,9 +1,12 @@
 import "./signup.css";
+import sign__in from "../../assets/images/Login/robot1.png";
 
 const Signup = () => {
   return (
-    <div>signup</div>
-  )
-}
+    <div>
+      <img src={sign__in} alt="sign-in" />
+    </div>
+  );
+};
 
-export default Signup
+export default Signup;
