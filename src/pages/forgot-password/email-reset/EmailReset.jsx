@@ -2,7 +2,7 @@ import Backbutton from "../../../components/forgot-password/Backbutton";
 import Bottomcircle from "../../../components/forgot-password/Bottomcircle";
 import Topcircle from "../../../components/forgot-password/Topcircle";
 import "./EmailReset.css";
-import vector__reset from "/src/assets/icons/vector1.png";
+import vector__reset from "/src/assets/vector1.png";
 
 const EmailReset = () => {
   return (
