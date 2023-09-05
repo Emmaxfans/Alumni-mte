@@ -1,5 +1,5 @@
 import "./Bottomcircle.css";
-import ellipse1 from "src/assets/images/forgotpassword/ellipse37.png";
+import ellipse1 from "src/assets/images/forgotpsw/ellipse37.png";
 
 const Bottomcircle = () => {
   return (
