@@ -1,5 +1,5 @@
 import "./ResetInput.css";
-import vector__resetinput from "../../../assets/icons/vector-reset.png";
+// import vector__resetinput from "../../../assets/icons/vector-reset.png";
 import Bottomcircle from "../../../components/forgot-password/Bottomcircle";
 import Topcircle from "../../../components/forgot-password/Topcircle";
 import Backbutton from "../../../components/forgot-password/Backbutton";
@@ -7,13 +7,13 @@ import Backbutton from "../../../components/forgot-password/Backbutton";
 const ResetInput = () => {
   return (
     <div className="forgot__password">
-      <div className="fp__section1">
+      <div className="fp__section">
         <Bottomcircle />
 
         <div className="resetinput__content">
           <Backbutton />
           <span className="p__head3">
-            <img src={vector__resetinput} alt="email-reset" />
+            {/* <img src={vector__resetinput} alt="email-reset" /> */}
           </span>
           <div className="resetinput-text">
             <h3>Set New Password</h3>
