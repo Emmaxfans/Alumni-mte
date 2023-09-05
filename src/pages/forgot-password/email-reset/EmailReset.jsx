@@ -16,7 +16,7 @@ const EmailReset = () => {
 
           <center>
             <h1 className="p__head">
-              <img src="/src/assets/icons/vector1.png" alt="email-reset" />
+              {/* <img src="/src/assets/icons/vector1.png" alt="email-reset" /> */}
             </h1>
           </center>
 
