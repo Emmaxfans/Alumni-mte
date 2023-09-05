@@ -1,8 +1,8 @@
 import "./ResetInput.css";
 // import vector__resetinput from "../../../assets/icons/vector-reset.png";
-import Bottomcircle from "../../components/forgot-password/Bottomcircle";
-import Topcircle from "../../components/forgot-password/Topcircle";
-import Backbutton from "../../components/forgot-password/Backbutton";
+import Bottomcircle from "../../../components/forgot-password/Bottomcircle";
+import Topcircle from "../../../components/forgot-password/Topcircle";
+import Backbutton from "../../../components/forgot-password/Backbutton";
 
 const ResetInput = () => {
   return (
