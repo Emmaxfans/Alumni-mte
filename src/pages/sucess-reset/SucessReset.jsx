@@ -1,8 +1,8 @@
+import Backbutton from "../../components/forgot-password/Backbutton";
+import Bottomcircle from "../../components/forgot-password/Bottomcircle";
+import Topcircle from "../../components/forgot-password/Topcircle";
 import "./SucessReset.css";
 // import vector__success from "../../../assets/icons/vector1.png";
-import Bottomcircle from "../../../components/forgot-password/Bottomcircle";
-import Topcircle from "../../../components/forgot-password/Topcircle";
-import Backbutton from "../../../components/forgot-password/Backbutton";
 
 const SucessReset = () => {
   return (
