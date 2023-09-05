@@ -1,5 +1,5 @@
 import "./Backbutton.css";
-import backbutton from "src/assets/icons/backbutton.png";
+import backbutton from "../../assets/icons/backbutton.png";
 
 const Backbutton = () => {
   return (
